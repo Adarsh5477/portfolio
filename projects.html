@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Your custom styles -->
+    <style>
+        :root {
+            --main-background: #0b0c0f;
+            --main-fonts-color: #fff;
+            --main-header-background: #21252e;
+            --main-font-family: 'Poppins', sans-serif;
+          
+            --primary-color: #1C2530;
+            --secondary-color: #293846;
+            --accent-color: #7EB8FF;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0b0c0f;
+            color: #fff;
+        }
+        .hero {
+            background-image:url('./uni.png'); /* Replace with your hero image */
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            width:100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 5%;
+           
+           
+        }
+        .project1 {
+            padding: 50px;
+            border: 1px solid #293846;
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .cta1 {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #7EB8FF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .project1{
+            height: 40vh;
+        }
+        a:hover{
+            text-decoration: none;
+            background-color:white;
+            color:var(--accent-color)
+        }
+    </style>
+</head>
+<body>
+    <header >
+		<nav>	
+		 <ul class="nav-bar"><div class="bg"></div>
+			<li><a class="nav-link active" href="./index.html">Home</a></li>
+       <li><a class="nav-link" href="./skills.html">Skills</a></li>
+			<li><a class="nav-link" href="./projects.html">Projects</a></li> 
+			<li><a class="nav-link" href="./contactus.html">Contact</a></li>
+      <li><a class="nav-link" href="./v2gallery.html">Gallery</a></li>
+		 </ul>
+			
+		</nav>
+	</header>
+    <div class="hero">
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="project1">
+                    <h3 style="font-size: 40px;">univote</h3>
+                    <p>
+                        This is a full-stack web application built with the React + Firebase stack.
+                        It allows users to vote online for their favorite candidates in various student elections.
+                    </p>
+                    <a href="https://ad.e-polling.repl.co/" class="cta1" target="_blank">Click to Open</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project1">
+                    <h3 style="font-size: 40px;">E-commerce App</h3>
+                    <p>
+                        A scalable e-commerce platform built with React, Node.js, and MongoDB.
+                        Users can browse products, add them to the cart, and complete the purchase securely.
+                    </p>
+                    <a href="https://github.com/Adarsh5477" target="_blank" class="cta1">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
