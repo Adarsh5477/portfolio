@@ -18,9 +18,14 @@
       --primary-color: #1C2530;
       --secondary-color: #293846;
       --accent-color: #7EB8FF;}
+      img{
+        height:70vh;
+        width: 60vh;
+        object-fit: contain;
+      }
   </style>
 </head>
-<body style=" height:100%;width:100%;background-color: var(--primary-color);">
+<body style=" height:100%;width:100%;background-color:#0b0c0f;">
   <div class="container" >
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -31,23 +36,23 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Home</a>
+              <a class="nav-link" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="./skills.html">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="./projects.html">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="./contactus.html">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
     <main style=" height:100%;width:100%;background-color: var(--primary-color);">
-      <div id="photo-gallery" style="background-color: var(--secondary-color);" class="p-5">
+      <div id="photo-gallery" style="background-color:var(--primary-color);" class="p-5">
         <h3 class="text-center mb-4" style="color: var(--accent-color);">Photo Gallery</h3>
         <hr style="background-color: var(--accent-color);">
         <div class="carousel slide" id="imageCarousel" data-ride="carousel">
@@ -56,7 +61,13 @@
               <img src="./IMG_20230626_121133_635.jpg" alt="Photo 1" class="d-block mx-auto img-fluid rounded">
             </div>
             <div class="carousel-item">
-              <img src="./IMG_20230626_121133_635.jpg" alt="Photo 2" class="d-block mx-auto img-fluid rounded">
+              <img src="./img1.jpg" alt="Photo 2" class="d-block mx-auto img-fluid rounded">
+            </div>
+            <div class="carousel-item">
+              <img src="./img3.jpg" alt="Photo 2" class="d-block mx-auto img-fluid rounded">
+            </div>
+            <div class="carousel-item">
+              <img src="./img2.jpg" alt="Photo 2" class="d-block mx-auto img-fluid rounded">
             </div>
             <!-- Add more carousel items for additional images -->
           </div>
@@ -71,9 +82,7 @@
         </div>
       </div>
     </main>
-    <footer>
-      <!-- Your footer content -->
-    </footer>
+  
   </div>
 
   <!-- Your scripts -->
